@@ -1,13 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
-spawnrate = 30;
-if time = 10
-{
-	alarm[0] = spawnrate;
-}
-
-
-
+///start spawning when space is pressed, 
+//spawn next wave after previous is finished
 if time <= 0
 {
 	time = timeup * 1.1

@@ -285,6 +285,14 @@
                 "resourcePath": "objects\\obj_projectile\\obj_projectile.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "fde065ab-017a-425b-a542-19b6c2e03f32",
+            "Value": {
+                "id": "8f267683-0ed8-4c47-aa8e-c130503a2ff9",
+                "resourcePath": "objects\\obj_playerhp\\obj_playerhp.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [

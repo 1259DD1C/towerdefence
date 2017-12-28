@@ -1,5 +1,5 @@
 /// @description Insert description here
-// You can write your code in this editort
+// if tower is ready to fire and enemy in range spawn projectile
 tspeed -= 1;
 target = instance_nearest(x,y,obj_enemy);
 
