@@ -1,6 +1,6 @@
 //get input
 dvc=argument0; // if dvc != 0 use gamepad. 
-
+//
 //implement later on: 
 //var gp_num = gamepad_get_device_count();
 //for (var i = 0; i < gp_num; i++;){
@@ -33,5 +33,6 @@ act_tab = keyboard_check(ord("TAB"));
 act_esc = keyboard_check_pressed(vk_escape);
 act_shift = keyboard_check_pressed(vk_lshift);
 act_spacebar = keyboard_check_pressed(vk_space);
+
 
 
