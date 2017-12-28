@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-path_start(Pth_level,4,0,1);
+move_towards_point(spawn.target.x,spawn.target.y,pspeed);
