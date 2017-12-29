@@ -22,12 +22,12 @@ if instance_exists(obj_enemy_parent)
 	if enemyId != 0
 	{
 		enemyDirection = point_direction(x, y, enemyId.x, enemyId.y)
-		image_angle = enemyDirection;
+		cannon_rotation = enemyDirection;
 		
 			if (canShoot)
 			{
 		
-				bulletId = instance_create_layer(x, y, "Tower_layer", obj_projectile);
+				bulletId = instance_create_layer(x, y, "Tower_layer", obj_projectile1);
 				bulletId.direction = enemyDirection
 				bulletId.speed = bulletspeed
 				canShoot = false;
