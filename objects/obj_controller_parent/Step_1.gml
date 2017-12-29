@@ -13,7 +13,7 @@ if (towerOnePicked)
 			// check if not on top of something
 			if (place_empty(xPlace, yPlace))
 			{
-				instance_create_layer(xPlace, yPlace, "Tower_layer", obj_tower);
+				instance_create_layer(xPlace, yPlace, "Tower_layer", obj_tower1);
 				money -= towerOneCost;
 			}
 		}

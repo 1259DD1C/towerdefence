@@ -79,11 +79,19 @@
             }
         },
         {
+<<<<<<< Updated upstream
             "Key": "3da02c08-cc33-4b55-be18-a9be71f49782",
             "Value": {
                 "id": "676b0ec5-a895-4218-ad25-acd8fead4f24",
                 "resourcePath": "sprites\\spr_tower1_cannon\\spr_tower1_cannon.yy",
                 "resourceType": "GMSprite"
+=======
+            "Key": "3c4f64ef-8a18-43b7-b56e-b2b40faab1a6",
+            "Value": {
+                "id": "518b0759-30ff-42f3-91b4-7665ac32a1a7",
+                "resourcePath": "objects\\obj_tower2\\obj_tower2.yy",
+                "resourceType": "GMObject"
+>>>>>>> Stashed changes
             }
         },
         {
@@ -106,7 +114,7 @@
             "Key": "4d29d287-89d8-492a-84e5-424dd03c7c0f",
             "Value": {
                 "id": "3d30f4eb-b9d7-4c35-be45-d576db043f2b",
-                "resourcePath": "sprites\\spr_tower\\spr_tower.yy",
+                "resourcePath": "sprites\\spr_tower1\\spr_tower1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -202,7 +210,7 @@
             "Key": "6d77af26-0e57-45d6-8515-d8302e5e02c5",
             "Value": {
                 "id": "db289be3-773a-45b8-8f2b-9abe45eaa68c",
-                "resourcePath": "objects\\obj_tower\\obj_tower.yy",
+                "resourcePath": "objects\\obj_tower1\\obj_tower1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -284,6 +292,14 @@
                 "id": "e59d5297-50be-4882-927e-1fb08f8da487",
                 "resourcePath": "objects\\obj_tower_parent\\obj_tower_parent.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a806a827-0e61-47ac-8ad0-191d40e1a3cd",
+            "Value": {
+                "id": "e45c8bc0-d68d-48fa-8d54-1fefe15cd143",
+                "resourcePath": "sprites\\spr_tower2\\spr_tower2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
