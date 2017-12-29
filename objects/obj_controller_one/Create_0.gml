@@ -12,5 +12,5 @@ enemies = 15;
 // starting hp + money
 
 playerHp = 20;
-money = 200;
+money = 400;
 

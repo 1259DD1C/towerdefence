@@ -22,13 +22,13 @@ draw_sprite(spr_tower2, 0, 112, room_height - 48);
 if (towerOnePicked)
 {
 	draw_sprite_ext(spr_tower1, 0, mouse_x, mouse_y, 1, 1, 0, c_white, 0.5)
-	draw_circle(mouse_x, mouse_y, 100, c_gray) //100 is range
+	draw_circle(mouse_x, mouse_y, obj_tower1.range, c_gray) //100 is range
 }
 
 if (towerTwoPicked)
 {
 	draw_sprite_ext(spr_tower2, 0, mouse_x, mouse_y, 1, 1, 0, c_white, 0.5)
-	draw_circle(mouse_x, mouse_y, 50, c_gray)
+	draw_circle(mouse_x, mouse_y, obj_tower2.range, c_gray)
 }
 
 

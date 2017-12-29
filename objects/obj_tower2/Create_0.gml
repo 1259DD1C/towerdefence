@@ -2,7 +2,7 @@
 // radial aoe tower
 event_inherited();
 
-range = 50;
-reloadspeed = 45;
-damage = 5;
+range = 100;
+reloadspeed = 60;
+damage = 6;
 

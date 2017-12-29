@@ -23,9 +23,9 @@ if instance_exists(obj_enemy_parent)
 		if (canShoot)
 			{
 		
-				
 				canShoot = false;
 				alarm[1] = reloadspeed;
+				effect_create_below(ef_ring, x, y, range, c_red)
 				
 				for (var i = 0; i < instance_number(obj_enemy_parent); i += 1;)
 				{
