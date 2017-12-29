@@ -1,17 +1,40 @@
-/// rotate towards enemy
+/// rotate towards "leading" enemy
+
+
 if instance_exists(obj_enemy_parent)
 {
-	if point_distance(x, y, obj_enemy_parent.x, obj_enemy_parent.y) <= range
+	enemyId = 0;
+	
+	for (var i = 0; i < instance_number(obj_enemy_parent); i += 1)
 	{
-		enemyDirection = point_direction(x, y, obj_enemy_parent.x, obj_enemy_parent.y)
-		image_angle = enemyDirection;
-		if (canShoot)
+		var enemy = instance_find(obj_enemy_parent, i);
+		var enemyDistance = point_distance(x, y, enemy.x, enemy.y)
+		
+		if (enemyDistance <= range)
 		{
-		
-			instance_create_layer(x, y, "Tower_layer", obj_projectile);
-			canShoot = false;
-			alarm[1] = reloadspeed;
-		
+			if (enemyId == 0) enemyId = enemy;
+			
+			var pos = enemy.path_position;
+			if (pos > enemyId.path_position) enemyId = enemy;
 		}
 	}
+
+	if enemyId != 0
+	{
+		enemyDirection = point_direction(x, y, enemyId.x, enemyId.y)
+		image_angle = enemyDirection;
+		
+			if (canShoot)
+			{
+		
+				bulletId = instance_create_layer(x, y, "Tower_layer", obj_projectile);
+				bulletId.direction = enemyDirection
+				bulletId.speed = bulletspeed
+				canShoot = false;
+				alarm[1] = reloadspeed;
+		
+			}
+	}
 }
+
+
