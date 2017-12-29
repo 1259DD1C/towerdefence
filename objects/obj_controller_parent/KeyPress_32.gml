@@ -1,0 +1,3 @@
+/// start game
+
+start = true;

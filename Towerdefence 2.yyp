@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1ab15910-458b-4294-9c49-d1f83123d825",
+            "Value": {
+                "id": "76b09225-4cc1-4f33-a485-aa5eaba52aff",
+                "resourcePath": "scripts\\scriptL1W3\\scriptL1W3.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2aa98d7c-dc0c-4d0a-b123-88e37ebc004b",
             "Value": {
                 "id": "e9a5de23-1662-4925-a3c2-f5d648372ea4",
@@ -183,6 +191,14 @@
             }
         },
         {
+            "Key": "8b625fe5-ad8d-47fa-8995-4de486a56136",
+            "Value": {
+                "id": "697e9358-caf7-4d08-97e3-106d02cd68ce",
+                "resourcePath": "scripts\\scriptL1W1\\scriptL1W1.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a2a44420-5ed5-4fd8-b21c-4a5062b6a02d",
             "Value": {
                 "id": "22a8fc33-acce-445e-892a-2f949b1cd4ce",
@@ -196,6 +212,14 @@
                 "id": "15e12448-f1a0-43c4-bd63-8589ca8201e1",
                 "resourcePath": "sprites\\spr_tileset\\spr_tileset.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a6c92dc1-0de7-4d1c-9d5e-436ce2b7747c",
+            "Value": {
+                "id": "05f6bb52-6b14-4658-b96f-9cecb31365f8",
+                "resourcePath": "scripts\\checkWaveDone\\checkWaveDone.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -279,6 +303,14 @@
             }
         },
         {
+            "Key": "d0a031e8-f205-465f-9033-34222337ba7e",
+            "Value": {
+                "id": "e61f0fc9-bac3-4484-b541-67f93c6df87e",
+                "resourcePath": "scripts\\scriptL1W2\\scriptL1W2.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dc7f50bf-9ab6-4eb6-a588-1be6fc53dc98",
             "Value": {
                 "id": "4078c32b-5d2d-4de4-924f-7c73a903e401",
@@ -304,7 +336,10 @@
         }
     ],
     "script_order": [
-        
+        "a6c92dc1-0de7-4d1c-9d5e-436ce2b7747c",
+        "8b625fe5-ad8d-47fa-8995-4de486a56136",
+        "d0a031e8-f205-465f-9033-34222337ba7e",
+        "1ab15910-458b-4294-9c49-d1f83123d825"
     ],
     "tutorial": ""
 }
