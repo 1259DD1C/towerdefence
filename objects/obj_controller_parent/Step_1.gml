@@ -7,5 +7,5 @@ if (towerOnePicked)
 
 if (towerTwoPicked)
 {
-	PlaceTower(towerTwoPicked, towerTwoCost, obj_tower2);
+	PlaceTower(towerOnePicked, towerTwoCost, obj_tower2);
 }
