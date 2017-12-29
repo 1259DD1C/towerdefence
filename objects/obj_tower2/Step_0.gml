@@ -4,7 +4,7 @@
 if instance_exists(obj_enemy_parent)
 {
 	enemyId = 0;
-	ids(instance_number(obj_enemy_parent)) = false;
+	ids = array_create((instance_number(obj_enemy_parent)),0);
 	
 	for (var i = 0; i < instance_number(obj_enemy_parent); i += 1)
 	{
