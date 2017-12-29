@@ -6,4 +6,11 @@ enemies = 0;
 start = false;
 canSpawn = true;
 
-//alarm[0] = 60;
+// money and hp
+
+playerHp = 0;
+money = 0;
+
+//towers
+
+towerOneCost = 100;
