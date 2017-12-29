@@ -22,7 +22,7 @@ if(mouse_check_button_pressed(mb_left))
 		
 		if (mouse_x >= 96 && mouse_x <= 128)
 		{
-			if (! towerTwoPicked) // && towerthreepicked etc
+			if (! towerOnePicked)
 			{
 				towerTwoPicked = true;
 			}
