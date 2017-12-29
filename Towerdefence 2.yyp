@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "3da02c08-cc33-4b55-be18-a9be71f49782",
+            "Value": {
+                "id": "676b0ec5-a895-4218-ad25-acd8fead4f24",
+                "resourcePath": "sprites\\spr_tower1_cannon\\spr_tower1_cannon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "43abcfe7-6c26-4edc-993c-8b700bea0aff",
             "Value": {
                 "id": "90b941cd-e883-4c68-80f4-f907dd49daf5",
@@ -135,6 +143,14 @@
             }
         },
         {
+            "Key": "51bc4fb2-768b-4dcc-8d39-483b96beb55e",
+            "Value": {
+                "id": "8f45aedb-a10c-416e-afc0-458927678fbc",
+                "resourcePath": "objects\\obj_camera_follow\\obj_camera_follow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "577dd45d-2ec8-4b98-a489-dd86c5f77271",
             "Value": {
                 "id": "4afc0dea-ef6e-4eb6-ac8d-bcd9d8dcd4be",
@@ -151,11 +167,27 @@
             }
         },
         {
+            "Key": "598dd1f9-abd9-4b11-8c89-a2f68175612e",
+            "Value": {
+                "id": "fe9b57a1-f4cc-4e4c-9029-002f2a9fcef6",
+                "resourcePath": "views\\598dd1f9-abd9-4b11-8c89-a2f68175612e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5e94fc24-e53c-45f4-a2d9-4cca5d652590",
             "Value": {
                 "id": "1c20f2cc-395a-4b73-b0a9-d2b73eca7514",
                 "resourcePath": "rooms\\rm_Level_one\\rm_Level_one.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "606eaf3b-2f27-4797-81e4-a8bb5a1e04a5",
+            "Value": {
+                "id": "d406e65e-0304-4bea-b281-9596744ccb01",
+                "resourcePath": "sprites\\spr_tower1\\spr_tower1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -172,6 +204,14 @@
                 "id": "db289be3-773a-45b8-8f2b-9abe45eaa68c",
                 "resourcePath": "objects\\obj_tower\\obj_tower.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "74d0bfbe-0633-4962-a716-f78ad08a2087",
+            "Value": {
+                "id": "f2e121bd-1099-4ece-82bb-f9f3d4794a19",
+                "resourcePath": "views\\74d0bfbe-0633-4962-a716-f78ad08a2087.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -204,6 +244,14 @@
                 "id": "697e9358-caf7-4d08-97e3-106d02cd68ce",
                 "resourcePath": "scripts\\scriptL1W1\\scriptL1W1.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a02b9db8-dc4d-436b-b9cd-1ca57633b28e",
+            "Value": {
+                "id": "3108d21e-89ec-4487-aca2-6063798cff9f",
+                "resourcePath": "rooms\\rm_Level_two\\rm_Level_two.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -287,6 +335,14 @@
             }
         },
         {
+            "Key": "bd65acab-50fa-4bbd-9dd3-c6ed6f618330",
+            "Value": {
+                "id": "7f9dddd0-a1d0-4e0e-b826-d316c83926ad",
+                "resourcePath": "paths\\Pth_Level_two\\Pth_Level_two.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "c6cb6dfa-961a-4af6-ab2a-f3b291ff93a6",
             "Value": {
                 "id": "09d6a79c-f2ed-4ba4-97e4-7601562693d0",
@@ -324,6 +380,14 @@
                 "id": "e61f0fc9-bac3-4484-b541-67f93c6df87e",
                 "resourcePath": "scripts\\scriptL1W2\\scriptL1W2.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "db4a559b-76f2-4833-a4ae-de0ab01ee99d",
+            "Value": {
+                "id": "f64ab7eb-f548-4534-912b-ebae9cf7b069",
+                "resourcePath": "objects\\obj_camera\\obj_camera.yy",
+                "resourceType": "GMObject"
             }
         },
         {
