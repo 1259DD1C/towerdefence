@@ -1,4 +1,4 @@
-/// modified tower1 code for aoe
+/// modified tower1 code for aoe fucking with particles
 
 
 if instance_exists(obj_enemy_parent)
@@ -14,23 +14,27 @@ if instance_exists(obj_enemy_parent)
 		if (enemyDistance <= range)
 		{
 			enemyId = enemy;
+			ids[i] = true;
 		}
 	}
 
 	if enemyId != 0
 	{
-		enemyDirection = point_direction(x, y, enemyId.x, enemyId.y)
-		image_angle = enemyDirection;
-		
-			if (canShoot)
+		if (canShoot)
 			{
 		
-				bulletId = instance_create_layer(x, y, "Tower_layer", obj_projectile);
-				bulletId.direction = enemyDirection
-				bulletId.speed = bulletspeed
+				
 				canShoot = false;
 				alarm[1] = reloadspeed;
-		
+				
+				for (var i = 0; i < instance_number(obj_enemy_parent); i += 1;)
+				{
+						if (ids[i])
+						{
+							var enemy = instance_find(obj_enemy_parent, i);
+							enemy.currentHp -= damage;
+						}
+				}
 			}
 	}
 }

@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "1e003755-8f6d-4a79-8263-173f64eb9585",
+            "Value": {
+                "id": "0febb364-dcd6-4ad3-8a74-5080e9b97f9a",
+                "resourcePath": "scripts\\PlaceTower\\PlaceTower.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2aa98d7c-dc0c-4d0a-b123-88e37ebc004b",
             "Value": {
                 "id": "e9a5de23-1662-4925-a3c2-f5d648372ea4",
@@ -156,6 +164,14 @@
                 "id": "76a2faf8-ceb9-4aa2-b4f4-b916cc41a0d3",
                 "resourcePath": "sprites\\spr_projectile\\spr_projectile.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5b7a36e3-0c75-47c2-8e37-2e60aebda6e2",
+            "Value": {
+                "id": "05fa3874-fbe2-491c-bad0-5814a55697c8",
+                "resourcePath": "views\\5b7a36e3-0c75-47c2-8e37-2e60aebda6e2.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -371,7 +387,8 @@
         "a6c92dc1-0de7-4d1c-9d5e-436ce2b7747c",
         "8b625fe5-ad8d-47fa-8995-4de486a56136",
         "d0a031e8-f205-465f-9033-34222337ba7e",
-        "1ab15910-458b-4294-9c49-d1f83123d825"
+        "1ab15910-458b-4294-9c49-d1f83123d825",
+        "1e003755-8f6d-4a79-8263-173f64eb9585"
     ],
     "tutorial": ""
 }

@@ -16,7 +16,9 @@ money = 0;
 //towers
 
 towerOneCost = 100;
+towerTwoCost = 150;
 
 //tower menu
 
 towerOnePicked = false;
+towerTwoPicked = false;

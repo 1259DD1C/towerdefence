@@ -4,4 +4,5 @@ event_inherited();
 
 range = 50;
 reloadspeed = 45;
+damage = 5;
 
