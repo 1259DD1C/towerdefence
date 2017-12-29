@@ -1,9 +1,10 @@
-/// rotate towards "leading" enemy
+/// modified tower1 code for aoe
 
 
 if instance_exists(obj_enemy_parent)
 {
 	enemyId = 0;
+	ids(instance_number(obj_enemy_parent)) = false;
 	
 	for (var i = 0; i < instance_number(obj_enemy_parent); i += 1)
 	{
@@ -12,17 +13,14 @@ if instance_exists(obj_enemy_parent)
 		
 		if (enemyDistance <= range)
 		{
-			if (enemyId == 0) enemyId = enemy;
-			
-			var pos = enemy.path_position;
-			if (pos > enemyId.path_position) enemyId = enemy;
+			enemyId = enemy;
 		}
 	}
 
 	if enemyId != 0
 	{
 		enemyDirection = point_direction(x, y, enemyId.x, enemyId.y)
-		cannon_rotation = enemyDirection;
+		image_angle = enemyDirection;
 		
 			if (canShoot)
 			{
