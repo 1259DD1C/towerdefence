@@ -22,7 +22,7 @@ if instance_exists(obj_enemy_parent)
 	if enemyId != 0
 	{
 		enemyDirection = point_direction(x, y, enemyId.x, enemyId.y)
-		cannon_rotation = enemyDirection;
+		image_angle = enemyDirection;
 		
 			if (canShoot)
 			{
