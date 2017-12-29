@@ -1,13 +1,17 @@
-/// @description Insert description here
-// if tower is ready to fire and enemy in range spawn projectile
-tspeed -= 1;
-target = instance_nearest(x,y,obj_enemy);
-
-if (distance_to_object(obj_enemy) < trange)
+/// rotate towards enemy
+if instance_exists(obj_enemy_parent)
 {
-	if (tspeed <= 0)
+	if point_distance(x, y, obj_enemy_parent.x, obj_enemy_parent.y) <= range
 	{
-		instance_create_depth(x,y,"projectile_layer",obj_projectile)
-		tspeed = 30;
+		enemyDirection = point_direction(x, y, obj_enemy_parent.x, obj_enemy_parent.y)
+		image_angle = enemyDirection;
+		if (canShoot)
+		{
+		
+			instance_create_layer(x, y, "Tower_layer", obj_projectile);
+			canShoot = false;
+			alarm[1] = reloadspeed;
+		
+		}
 	}
 }

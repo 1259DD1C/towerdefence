@@ -1,5 +1,9 @@
-/// @description Insert description here
-//stats
-trange = 100;
-strength = 1;
-tspeed = 30;
+/// variables
+
+event_inherited();
+
+range = 128;
+reloadspeed = 30;
+bulletspeed = 7;
+enemyDirection = 0;
+

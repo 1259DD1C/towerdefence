@@ -1,4 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
-// so it homes in
-move_towards_point(spawn.target.x,spawn.target.y,pspeed);
+/// homing
+move_towards_point(obj_enemy_parent.x, obj_enemy_parent.y,speed)
