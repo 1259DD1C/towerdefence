@@ -1,0 +1,3 @@
+/// canspawn
+
+canSpawn = true;

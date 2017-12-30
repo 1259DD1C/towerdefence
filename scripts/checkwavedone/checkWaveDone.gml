@@ -6,8 +6,16 @@ wavedelay = 450 //15 seconds
 
 if (enemies == 0)
 			{
-				enemies  = argument[0]; 
-				currentwave  -= 1; //currentwave 
-				start = false; //start
-				alarm[2] = wavedelay;
+				if (!instance_exists(obj_enemy_parent))
+				{
+					enemies  = argument[0]; 
+					currentwave  -= 1; //currentwave 
+					start = false; //start
+					alarm[2] = wavedelay;
+				}
+				return true;
 			}
+else
+{
+	return false;
+}

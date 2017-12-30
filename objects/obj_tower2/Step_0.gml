@@ -8,6 +8,9 @@ if instance_exists(obj_enemy_parent)
 	
 	for (var i = 0; i < instance_number(obj_enemy_parent); i += 1)
 	{
+		
+		ids[i] = false;
+		
 		var enemy = instance_find(obj_enemy_parent, i);
 		var enemyDistance = point_distance(x, y, enemy.x, enemy.y)
 		
@@ -25,7 +28,7 @@ if instance_exists(obj_enemy_parent)
 		
 				canShoot = false;
 				alarm[1] = reloadspeed;
-				effect_create_below(ef_ring, x, y, range, c_red)
+				effect_create_below(ef_ring, x, y, 1, c_red)
 				
 				for (var i = 0; i < instance_number(obj_enemy_parent); i += 1;)
 				{

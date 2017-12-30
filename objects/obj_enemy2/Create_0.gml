@@ -1,10 +1,10 @@
 /// variables
 
-EnemySpeed = 5;
+EnemySpeed = 6;
 
 event_inherited();
 
-maxHp = 10;
+maxHp = 50;
 currentHp = maxHp; //can change later if you want regen enemies
 
 

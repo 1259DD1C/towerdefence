@@ -4,6 +4,6 @@ event_inherited();
 
 range = 128;
 reloadspeed = 30;
-bulletspeed = 7;
+bulletspeed = 10;
 enemyDirection = 0;
 

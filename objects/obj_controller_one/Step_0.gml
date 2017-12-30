@@ -7,21 +7,21 @@ switch (currentwave)
 	case 3:
 		if (start)
 		{
-			checkWaveDone(7);
+			if checkWaveDone(7) break;
 			scriptL1W1();
 		}
 		break;
 	case 2:
 		if (start)
 		{
-			checkWaveDone(10);
+			if checkWaveDone(10) break;
 			scriptL1W2();
 		}
 		break;
 	case 1:
 		if (start)
 		{
-			checkWaveDone(0);
+			if checkWaveDone(0) break;
 			scriptL1W3();
 		}
 		break;
